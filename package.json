@@ -1,0 +1,37 @@
+{
+  "name": "fxx-vue-employee-query",
+  "version": "0.0.1",
+  "description": "it's a employeeInfo request list",
+  "main": "./dist/employee-query.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --config ./build/webpack.config.js ",
+    "build": "webpack --mode=production --config ./build/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "Vue"
+  ],
+  "author": "fxx",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "vue-class-component": "^7.2.6",
+    "vue-loader": "^15.9.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "types":"./types/employee-query.d.ts"
+}
